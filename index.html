@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="toDoList.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="headTitle">TO DO LIST</h1>
+    </header>
+    <section>
+        <form class="taskForm">
+            <label for="toDoInput">New Task</label>
+            <input type="text" id="toDoInput" name="task" value="" required>
+            <label for="deadlineInput">Deadline</label>
+            <input type="date" id="deadlineInput" name="deadline" value="">
+            <input type="submit" id="submitBtn" value="Add New Task">
+        </form>
+        <div class="toDoList">
+            <h2 class="listTitle">Upcoming Tasks</h2>
+
+        </div>
+    </section>
+</body>
+</html>
